@@ -135,6 +135,21 @@ input {
     font-size: 1.2rem;
 }
 
+input[type="submit"] {
+    background: #28a745;
+    margin-top: 2rem;  
+    color: #fff;
+    text-transform: uppercase;
+    border-radius:2px;
+    
+    transition:  all 0.3    s;
+    cursor: pointer; 
+}
+
+input[type="submit"]:hover {
+    background: rgba(34, 172, 66, 0.849);
+}
+
 .form-group:after {
     content:  '';
     background: linear-gradient(to right,coral , black) ;
@@ -156,6 +171,7 @@ input {
     padding: 1rem 4rem;
     margin: 1rem  0;
     font-size: 14px;
+    border-radius:2px;
 }
 .social-media-group i {
     font-size: 1.5rem;
